@@ -118,3 +118,12 @@ blockquote {
 .button-white-border {
     border: 2px solid #e5e7eb;
 }
+
+/* Footer section */
+footer {
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 14px;
+}
