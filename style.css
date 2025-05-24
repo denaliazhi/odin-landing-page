@@ -88,3 +88,19 @@ button {
 }
 
 /* Quote section */
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote p {
+    text-align: right;
+    font-weight: bold;
+}
