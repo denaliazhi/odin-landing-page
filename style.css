@@ -19,13 +19,15 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 15%;
-    background-color: #1F2937;
+    background-color: #202b1c;
     color: #f9faf8;
 }
 
 .site-logo {
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 900;
+
 }
 
 .site-links {
@@ -42,15 +44,21 @@ header {
 }
 
 img {
-    border-radius: 5px;
+    border-radius: 10px;
     object-fit: cover;
 }
 
 /* Hero section */
 .hero {
-    background-color: #1F2937;
+    background-color: #202b1c;
     color: #f9faf8;
     gap: 60px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 340px;
 }
 
 .hero-text h1 {
@@ -68,11 +76,13 @@ img {
 
 .hero-image {
     align-self: flex-start; /* Stop image stretching by default */
+    width: 350px;
+    flex: 0 1 0;
 }
 
 button {
     padding: 0 25px;
-    background-color: #3882f6;
+    background-color: #64594c;
     height: 25px;
     color: #e5e7eb;
     border: none;
@@ -127,7 +137,7 @@ blockquote {
     margin: 60px 15%;
     padding: 25px 40px;
     border-radius: 5px; 
-    background-color: #3882f6;
+    background-color: #867c70;
     color: #e5e7eb;
 }
 
@@ -143,7 +153,7 @@ blockquote {
 footer {
     text-align: center;
     padding: 20px 40px;
-    background-color: #1F2937;
+    background-color: #202b1c;
     color: #f9faf8;
     font-size: 14px;
 }
