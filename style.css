@@ -67,11 +67,11 @@ img {
 
 button {
     padding: 5px 25px;
-    margin-top: 30px;
     background-color: #3882f6;
+    height: 25px;
     color: #e5e7eb;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* Card section */
@@ -89,7 +89,6 @@ button {
 
 /* Quote section */
 .quote {
-    display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
 }
@@ -103,4 +102,19 @@ blockquote {
 .quote p {
     text-align: right;
     font-weight: bold;
+}
+
+/* Call-to-Action section */
+.call-action {
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 25px 40px;
+    border-radius: 5px; 
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.button-white-border {
+    border: 2px solid #e5e7eb;
 }
