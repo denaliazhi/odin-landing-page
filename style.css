@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -38,11 +38,12 @@ header {
 .container {
     display: flex;
     gap: 20px;
-    padding: 60px 20%;
+    padding: 60px 15%;
 }
 
 img {
     border-radius: 5px;
+    object-fit: cover;
 }
 
 /* Hero section */
@@ -70,7 +71,7 @@ img {
 }
 
 button {
-    padding: 5px 25px;
+    padding: 0 25px;
     background-color: #3882f6;
     height: 25px;
     color: #e5e7eb;
@@ -88,7 +89,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
 }
 
 .card {
@@ -99,7 +100,7 @@ button {
 
 .card p {
     margin-top: 10px;
-    max-width: 200px;  /* Keep text from overflowing image border */
+    max-width: 200px;  /* Keep text from hanging over image border */
 }
 
 /* Quote section */
@@ -123,7 +124,7 @@ blockquote {
 .call-action {
     justify-content: space-between;
     align-items: center;
-    margin: 20px 20%;
+    margin: 20px 15%;
     padding: 25px 40px;
     border-radius: 5px; 
     background-color: #3882f6;
