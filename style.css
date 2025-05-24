@@ -38,7 +38,7 @@ header {
 .container {
     display: flex;
     gap: 20px;
-    padding: 60px 40px;
+    padding: 60px 20%;
 }
 
 img {
@@ -49,16 +49,19 @@ img {
 .hero {
     background-color: #1F2937;
     color: #f9faf8;
+    gap: 60px;
 }
 
 .hero-text h1 {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .hero-text p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 20px;
 }
 
 .hero-image {
@@ -108,7 +111,7 @@ blockquote {
 .call-action {
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 20px 20%;
     padding: 25px 40px;
     border-radius: 5px; 
     background-color: #3882f6;
