@@ -1,0 +1,34 @@
+/* CSS for landing page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 10px 30px;
+    color: #f9faf8;
+}
+
+.site-logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.site-links {
+    display: flex;
+    gap: 20px;
+}
