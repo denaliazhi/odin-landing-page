@@ -35,11 +35,18 @@ header {
     color: #e5e7eb;
 }
 
-/* Hero section */
-.container-hero {
+.container {
     display: flex;
     gap: 20px;
     padding: 60px 40px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+/* Hero section */
+.hero {
     background-color: #1F2937;
     color: #f9faf8;
 }
@@ -64,5 +71,20 @@ button {
     background-color: #3882f6;
     color: #e5e7eb;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
+
+/* Card section */
+.information {
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Quote section */
